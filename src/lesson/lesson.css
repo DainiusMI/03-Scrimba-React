@@ -101,6 +101,9 @@
     left: 50%;
     transform: translateX(-50%);
 
+    width: 80%;
+    word-wrap:break-word;
+    text-align: center;
 
     font-size: 32px;
     font-weight: 900;
@@ -112,9 +115,9 @@
     -webkit-text-stroke: 1px;
 }
 .meme-text:first-of-type {
-    top: 1rem;
+    top: min(1rem, 5%);
 
 }
 .meme-text:last-of-type {
-    bottom: 1rem;
+    bottom: min(1rem, 5%);
 }
